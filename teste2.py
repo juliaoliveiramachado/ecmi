@@ -9,10 +9,10 @@ st.write("Tabela")
 dataframe = pd.DataFrame({
    'Nome': ['Julia', 'Bruna', 'Lavinia', 'Manu'],
    'Salário': [25000, 22500, 15000, 20000]
- })
- dataframe.style.highlight_max(axis=0)
-   
- st.write(dataframe)
+})
+dataframe.style.highlight_max(axis=0)
+ 
+st.write(dataframe)
 
 chart_data = pd.DataFrame(
      np.random.randn(20, 3),
