@@ -8,7 +8,7 @@ st.write("Tabela")
 
 dataframe = pd.DataFrame({
    'Nome': ['Julia', 'Bruna', 'Lavinia', 'Manu'],
-   'Salário': [25000, 22500, 15000, 20000]
+   'Salário': [25000, 5000, 15000, 20000]
 })
 dataframe.style.highlight_max(axis=0)
  
